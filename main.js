@@ -23,7 +23,7 @@
             });   
         }
         
-    clear.onclick = function (e) {
+        clear.onclick = function (e) {
             reset();
     }
 
