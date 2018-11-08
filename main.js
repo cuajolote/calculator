@@ -17,14 +17,14 @@
 
         for (let i = 0; i < operaciones.length; i++) {
             operaciones[i].addEventListener('click', function (e) {
-                numero1 = resultado.textContent;
+                numero1 = parseInt(resultado.textContent);
                 operacion = operaciones[i].textContent;
                 limpiarPantalla();
             });   
         }
         
     igualdad.onclick = function(e){
-            numero2 = resultado.textContent;
+            numero2 = parseInt(resultado.textContent);
             operar();
     }     
 
