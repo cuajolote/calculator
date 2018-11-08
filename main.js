@@ -23,42 +23,8 @@
             });   
         }
         
-        clear.onclick = function (e) {
-            reset();
-    }
-
     igualdad.onclick = function(e){
-        numero2 = resultado.textContent;
-        operar();
-    } 
+            numero2 = resultado.textContent;
+            operar();
+    }     
 
-    function limpiarPantalla() {
-        resultado.textContent = "";
-    }
-
-    function reset() {
-        resultado.textContent = "";
-        numero1 = 0;
-        numero2 = 0;
-        operacion = "";
-    }
-
-    function operar() {
-        var result;
-        switch (operacion) {
-            case "+": 
-                result = numero1 + numero2;
-                break;
-            case "-": 
-                result = numero1 - numero2;
-                break;
-            case "/":
-                result = numero1 / numero2;
-                break;
-            case "*":
-                result = numero1 * numero2;
-                break;
-        }
-        reset();
-        resultado.textContent = result;
-    }
