@@ -28,3 +28,37 @@
             operar();
     }     
 
+    clear.onclick = function (e) {
+       reset();
+    }
+
+    function limpiarPantalla() {
+        resultado.textContent = "";
+    }
+
+    function reset() {
+        resultado.textContent = "";
+        numero1 = 0;
+        numero2 = 0;
+        operacion = "";
+    }
+
+    function operar() {
+        var result;
+        switch (operacion) {
+            case "+": 
+                result = numero1 + numero2;
+                break;
+            case "-": 
+                result = numero1 - numero2;
+                break;
+            case "/":
+                result = numero1 / numero2;
+                break;
+            case "*":
+                result = numero1 * numero2;
+                break;
+        }
+        reset();
+        resultado.textContent = result;
+    }
