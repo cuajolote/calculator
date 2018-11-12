@@ -6,6 +6,8 @@
     width: 320px;
     height: 500px;
     border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .calculator td button{
@@ -14,16 +16,30 @@
     height: 75px;
     border-radius: 7px;
     font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #resultado{
     display:block;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 320px;
-    height: 100px;
-    line-height: 100px;
+    height: 60px;
+    line-height: 60px;
     background-color: #ffff;
-    border-radius: 25px;
+    border-radius: 5px;
+}
+
+#historial{
+    display:block;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 0;
+    width: 320px;
+    height: 30px;
+    line-height: 40px;
+    background-color: #ffff;
+    border-radius: 5px;
+    color: #b9b8b5;
 }
