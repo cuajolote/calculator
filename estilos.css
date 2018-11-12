@@ -17,6 +17,7 @@
     border-radius: 7px;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.2s;
 }
 
 #resultado{
@@ -46,4 +47,5 @@
 
 button:hover{
     background-color: #ffffff;
+    transform: scale(1.1,1.1);
 }
